@@ -1,5 +1,5 @@
 {
-	"geode": "4.5.0",
+	"geode": "4.6.3",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,7 +8,7 @@
 	},
 	"id": "capeling.spawn_trigger_coins",
 	"name": "Spawn Trigger Coins",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Capeling",
 	"description": "Adds spawn trigger ability to user coins",
 	"links": {

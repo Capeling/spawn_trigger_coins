@@ -1,5 +1,7 @@
 #include "SetupUserCoinLayer.hpp"
 
+namespace spawn_trigger_coins {
+
 SetupUserCoinLayer* SetupUserCoinLayer::create(EffectGameObject *coin, cocos2d::CCArray *coinsArray) {
     auto ret = new SetupUserCoinLayer();
     if (ret->init(coin, coinsArray)) {
@@ -28,4 +30,6 @@ bool SetupUserCoinLayer::init(EffectGameObject *coin, cocos2d::CCArray *coinsArr
     SetupTriggerPopup::postSetup();
 
     return true;
+}
+
 }

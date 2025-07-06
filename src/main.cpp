@@ -3,6 +3,7 @@
 
 #include "SetupUserCoinLayer.hpp"
 
+namespace spawn_trigger_coins {
 struct CoinEditorUI : geode::Modify<CoinEditorUI, EditorUI> {
     bool editButtonUsable() {
         if (checkUserCoin()) return true;
@@ -41,3 +42,5 @@ struct CoinEditorUI : geode::Modify<CoinEditorUI, EditorUI> {
         return false;
     }
 };
+
+}
